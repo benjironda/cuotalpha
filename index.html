@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CuotAlpha · Cazamos cuotas mal puestas</title>
+<meta name="description" content="Comparamos las cuotas de las casas españolas con su precio justo. Cuando pagan de más, lo publicamos antes del partido, con cuota mínima y registro público. +18.">
+<meta property="og:title" content="CuotAlpha · Cazamos cuotas mal puestas">
+<meta property="og:description" content="Cuotas por encima de su precio real. Registro público, nada se borra. Canal gratis en Telegram. +18">
+<meta property="og:image" content="https://cuotalpha.com/assets/og.png">
+<meta property="og:url" content="https://cuotalpha.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="assets/monograma.svg" alt=""><span>CUOTALPHA</span></a>
+  <nav><a class="hide-sm" href="#metodo">Método</a><a class="hide-sm" href="#categorias">Picks</a><a href="registro/">Registro</a></nav>
+</div></header>
+
+<div class="hero"><div class="wrap">
+  <img src="assets/monograma.svg" alt="CuotAlpha">
+  <h1>Cazamos cuotas<br>mal puestas.</h1>
+  <p class="lead">Las casas se equivocan. Comparamos sus cuotas con el precio justo del mercado y publicamos solo las que pagan de más. Antes del partido, con cuota mínima y registradas para siempre.</p>
+  <div class="ctas"><a class="btn" href="https://t.me/cuotalpha">Únete gratis en Telegram</a><a class="btn ghost" href="registro/">Ver el registro</a></div>
+  <div class="stats" id="stats" hidden></div>
+</div></div>
+
+<section id="metodo"><div class="wrap">
+  <h2>El método</h2>
+  <p class="sub">No adivinamos resultados. Buscamos errores de precio, que se pueden medir.</p>
+  <div class="grid3">
+    <div class="card"><div class="n">01</div><h3>Precio justo</h3><p>Tomamos la cuota de la casa más afinada del mundo y le quitamos su margen. Eso es lo que vale de verdad cada resultado.</p></div>
+    <div class="card"><div class="n">02</div><h3>Comparación</h3><p>La enfrentamos, partido a partido y mercado a mercado, con las casas con licencia en España que más se usan.</p></div>
+    <div class="card"><div class="n">03</div><h3>Publicación</h3><p>Si una casa paga por encima del precio justo, lo publicamos con la casa, la cuota y la cuota mínima a la que todavía merece la pena.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap two">
+  <div>
+    <h2>La prueba que no se puede trucar</h2>
+    <p class="sub" style="margin-bottom:18px">Cualquiera puede enseñar una captura de una apuesta ganada. Nosotros enseñamos la cuota de cierre.</p>
+    <p class="note" style="font-size:15px">Cuando publicamos un pick apuntamos la cuota. Cuando empieza el partido apuntamos a cuánto ha cerrado el mercado. Si cerró más baja, el mercado nos dio la razón, se gane o se pierda esa apuesta. Repetido cientos de veces, no hay suerte que lo explique. Por eso todo está en el registro público, pick a pick.</p>
+  </div>
+  <div class="example">🟢 #Valor
+⚽ LaLiga · Ejemplo FC – Modelo CF
+🎯 Gana Ejemplo FC
+💶 Cuota 3,50 en la casa
+📐 Precio justo 3,23 · Valor +8,4 %
+⛔ No jugar por debajo de 3,30
+📊 Stake 1 u
+
+📉 Cierre del mercado: 3,05
+✅ Cogimos un 14,8 % más que el cierre</div>
+</div></section>
+
+<section id="categorias"><div class="wrap">
+  <h2>Lo que publicamos</h2>
+  <p class="sub">Cuatro categorías, cada una con su propio registro. Siempre verás acierto, cuota media y unidades juntos.</p>
+  <div class="grid4">
+    <div class="card"><h3>🟢 #Valor</h3><p>Cuotas por encima de su precio justo, con casa y cuota mínima. ⭐ cuando la cuota es baja y la probabilidad alta.</p></div>
+    <div class="card"><h3>🟡 #Supercuota</h3><p>Solo las supercuotas de las casas que de verdad superan su precio justo.</p></div>
+    <div class="card"><h3>🔵 #Pick</h3><p>Favoritos de alta probabilidad al mejor precio disponible. Stake reducido.</p></div>
+    <div class="card"><h3>📊 #Análisis</h3><p>Probabilidades y previas de los partidos grandes. Sin pick.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap" style="text-align:center">
+  <p class="quote" style="margin:0 auto 28px">Todo se publica antes del partido.<br>Nada se borra. Nada se edita.</p>
+  <a class="btn" href="https://t.me/cuotalpha">Entrar en el canal</a>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="age">+18</div>
+  <p>Juega con responsabilidad · <a href="https://www.jugarbien.es" rel="noopener">jugarbien.es</a></p>
+  <p>CuotAlpha publica análisis de cuotas con fines informativos. No es asesoramiento. Apuesta solo lo que puedas permitirte perder y solo en operadores con licencia en España.</p>
+  <p>© <span id="y"></span> CuotAlpha</p>
+</div></footer>
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+fetch('data/picks.json',{cache:'no-store'}).then(r=>r.json()).then(p=>{
+  const d=p.filter(x=>x.resultado&&x.resultado!=='pendiente');if(d.length<10)return;
+  const PL={ganada:x=>x.stake*(x.cuota-1),'medio ganada':x=>x.stake*(x.cuota-1)/2,nula:()=>0,'medio perdida':x=>-x.stake/2,perdida:x=>-x.stake};
+  const u=d.reduce((a,x)=>a+(PL[x.resultado]||(()=>0))(x),0);
+  const c=d.filter(x=>x.cierre).map(x=>x.cuota/x.cierre-1);
+  const f=(v,dd=1)=>v.toLocaleString('es-ES',{minimumFractionDigits:dd,maximumFractionDigits:dd});
+  const s=document.getElementById('stats');s.hidden=false;
+  s.innerHTML=`<div><b>${p.length}</b><span>picks publicados</span></div><div><b>${u>=0?'+':''}${f(u,2)}</b><span>unidades</span></div>`+(c.length?`<div><b>${c.reduce((a,x)=>a+x,0)/c.length>=0?'+':''}${f(100*c.reduce((a,x)=>a+x,0)/c.length)} %</b><span>vs cierre (CLV)</span></div>`:'');
+}).catch(()=>{});
+</script>
+</body>
+</html>

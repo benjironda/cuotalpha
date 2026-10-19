@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registro público · CuotAlpha</title>
+<meta name="description" content="Todos los picks de CuotAlpha, con cuota publicada, precio justo, cuota de cierre y resultado. Nada se borra.">
+<meta property="og:title" content="Registro público · CuotAlpha">
+<meta property="og:description" content="Cada pick con su cuota, su cierre y su resultado. Nada se borra.">
+<meta property="og:image" content="https://cuotalpha.com/assets/og.png">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="../assets/monograma.svg" alt=""><span>CUOTALPHA</span></a>
+  <nav><a href="/">Inicio</a><a href="https://t.me/cuotalpha">Telegram</a></nav>
+</div></header>
+
+<section style="padding-top:44px"><div class="wrap">
+  <h2>Registro público</h2>
+  <p class="sub">Cada pick tal y como se publicó en Telegram, con su cuota de cierre y su resultado. Nada se borra ni se edita.</p>
+
+  <div class="filters" id="cats"></div>
+  <div class="kpis" id="kpis"></div>
+  <div class="chart" id="chart"></div>
+  <div id="bycat"></div>
+  <h3 style="margin:28px 0 12px;font-weight:600">Todos los picks</h3>
+  <div class="tw"><table id="t"><thead><tr>
+    <th>#</th><th>Publicado</th><th>Cat.</th><th>Liga</th><th>Partido</th><th>Selección</th><th>Casa</th>
+    <th class="n">Cuota</th><th class="n">Justa</th><th class="n">Valor</th><th class="n">Cierre</th><th class="n">CLV</th><th class="n">Stake</th><th>Resultado</th><th class="n">Unidades</th><th></th>
+  </tr></thead><tbody></tbody></table></div>
+  <p class="note" style="margin-top:14px"><b>Cómo leerlo.</b> <i>Valor</i>: cuánto pagaba la casa por encima del precio justo al publicar. <i>Cierre</i>: precio justo del mercado justo antes del partido. <i>CLV</i>: cuánto más cogimos respecto al cierre; si es positivo de forma sostenida, la ventaja es real aunque una racha salga mal. Unidades con stake fijo.</p>
+  <p class="note" id="upd"></p>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="age">+18</div>
+  <p>Juega con responsabilidad · <a href="https://www.jugarbien.es" rel="noopener">jugarbien.es</a></p>
+  <p>Resultados pasados no garantizan resultados futuros. No es asesoramiento.</p>
+</div></footer>
+
+<script>
+const $=s=>document.querySelector(s);
+const f=(v,d=2)=>Number(v).toLocaleString('es-ES',{minimumFractionDigits:d,maximumFractionDigits:d});
+const sg=(v,d=2)=>(v>0?'+':v<0?'−':'')+f(Math.abs(v),d);
+const PL={ganada:x=>x.stake*(x.cuota-1),'medio ganada':x=>x.stake*(x.cuota-1)/2,nula:()=>0,'medio perdida':x=>-x.stake/2,perdida:x=>-x.stake};
+const pl=x=>(PL[x.resultado]||(()=>0))(x);
+const risk=x=>x.resultado==='nula'?0:(x.resultado==='medio ganada'||x.resultado==='medio perdida')?x.stake/2:x.stake;
+const EMO={Valor:'🟢',Supercuota:'🟡',Pick:'🔵'};
+const RES={ganada:'✅ Ganada','medio ganada':'✅ ½ Ganada',nula:'➖ Nula','medio perdida':'❌ ½ Perdida',perdida:'❌ Perdida',pendiente:'⏳ Pendiente'};
+let ALL=[],CAT='Todas';
+function stats(list){
+  const d=list.filter(x=>x.resultado&&x.resultado!=='pendiente');
+  const u=d.reduce((a,x)=>a+pl(x),0),r=d.reduce((a,x)=>a+risk(x),0);
+  const dec=d.filter(x=>x.resultado!=='nula');
+  const cl=list.filter(x=>x.cierre).map(x=>x.cuota/x.cierre-1);
+  return {n:list.length,d:d.length,u,y:r?u/r:null,hit:dec.length?dec.filter(x=>x.resultado.includes('ganada')).length/dec.length:null,
+    odds:list.length?list.reduce((a,x)=>a+x.cuota,0)/list.length:null,clv:cl.length?cl.reduce((a,x)=>a+x,0)/cl.length:null,clvPos:cl.length?cl.filter(x=>x>0).length/cl.length:null}
+}
+function kpis(s){
+  const k=[['Picks',s.n,''],['Unidades',s.d?sg(s.u):'—',s.u>0?'pos':s.u<0?'neg':''],['Yield',s.y==null?'—':sg(100*s.y,1)+' %',s.y>0?'pos':s.y<0?'neg':''],
+    ['CLV medio',s.clv==null?'—':sg(100*s.clv,1)+' %',s.clv>0?'pos':s.clv<0?'neg':''],['Acierto',s.hit==null?'—':f(100*s.hit,0)+' %',''],['Cuota media',s.odds==null?'—':f(s.odds),'']];
+  $('#kpis').innerHTML=k.map(([a,b,c])=>`<div class="kpi"><span>${a}</span><b class="${c}">${b}</b></div>`).join('');
+}
+function chart(list){
+  const d=list.filter(x=>x.resultado&&x.resultado!=='pendiente').sort((a,b)=>a.n-b.n);
+  if(d.length<2){$('#chart').innerHTML='<div class="note">La gráfica de unidades acumuladas aparecerá con los primeros resultados.</div>';return}
+  let c=0;const pts=[0,...d.map(x=>c+=pl(x))];
+  const W=1000,H=260,P=34,mn=Math.min(0,...pts),mx=Math.max(0,...pts),rg=(mx-mn)||1;
+  const X=i=>P+i*(W-2*P)/(pts.length-1),Y=v=>H-P-(v-mn)*(H-2*P)/rg;
+  const path=pts.map((v,i)=>(i?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1)).join(' ');
+  const last=pts[pts.length-1];
+  $('#chart').innerHTML=`<div class="note" style="margin-bottom:6px">Unidades acumuladas · ${d.length} picks resueltos</div>
+  <svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Unidades acumuladas">
+   <line x1="${P}" x2="${W-P}" y1="${Y(0)}" y2="${Y(0)}" stroke="rgba(255,255,255,.25)" stroke-dasharray="4 4"/>
+   <path d="${path} L ${X(pts.length-1)} ${Y(0)} L ${X(0)} ${Y(0)} Z" fill="rgba(201,168,106,.12)"/>
+   <path d="${path}" fill="none" stroke="#C9A86A" stroke-width="2.5" stroke-linejoin="round"/>
+   <circle cx="${X(pts.length-1)}" cy="${Y(last)}" r="4.5" fill="#e2c993"/>
+   <text x="${X(pts.length-1)-8}" y="${Y(last)-10}" text-anchor="end" fill="#e2c993" font-size="15" font-family="Montserrat">${sg(last)} u</text>
+   <text x="${P-6}" y="${Y(0)+4}" text-anchor="end" fill="#a9b8b0" font-size="12">0</text>
+  </svg>`;
+}
+function bycat(){
+  const cats=['Valor','Supercuota','Pick'].filter(c=>ALL.some(x=>x.categoria===c));
+  if(cats.length<2||CAT!=='Todas'){$('#bycat').innerHTML='';return}
+  $('#bycat').innerHTML=`<div class="tw"><table><thead><tr><th>Categoría</th><th class="n">Picks</th><th class="n">Acierto</th><th class="n">Cuota media</th><th class="n">Unidades</th><th class="n">Yield</th><th class="n">CLV</th></tr></thead><tbody>${
+    cats.map(c=>{const s=stats(ALL.filter(x=>x.categoria===c));return `<tr><td>${EMO[c]||''} #${c}</td><td class="n">${s.n}</td><td class="n">${s.hit==null?'—':f(100*s.hit,0)+' %'}</td><td class="n">${s.odds==null?'—':f(s.odds)}</td><td class="n ${s.u>0?'pos':s.u<0?'neg':''}">${s.d?sg(s.u):'—'}</td><td class="n">${s.y==null?'—':sg(100*s.y,1)+' %'}</td><td class="n">${s.clv==null?'—':sg(100*s.clv,1)+' %'}</td></tr>`}).join('')}</tbody></table></div>`;
+}
+function table(list){
+  if(!list.length){$('#t tbody').innerHTML='<tr><td colspan="16" class="empty">Los primeros picks se publican el fin de semana del 24 de octubre de 2026. Síguelos en directo en <a href="https://t.me/cuotalpha">Telegram</a>.</td></tr>';return}
+  $('#t tbody').innerHTML=[...list].sort((a,b)=>b.n-a.n).map(x=>{const v=x.justa?x.cuota/x.justa-1:null,c=x.cierre?x.cuota/x.cierre-1:null,p=x.resultado&&x.resultado!=='pendiente'?pl(x):null;
+    return `<tr><td>${x.n}</td><td>${new Date(x.publicado).toLocaleString('es-ES',{day:'2-digit',month:'2-digit',year:'2-digit',hour:'2-digit',minute:'2-digit'})}</td><td><span class="tag">${EMO[x.categoria]||''} ${x.categoria}${x.destacado?' ⭐':''}</span></td><td>${x.liga}</td><td>${x.partido}</td><td>${x.seleccion}</td><td>${x.casa}</td>
+    <td class="n">${f(x.cuota)}</td><td class="n">${x.justa?f(x.justa):'—'}</td><td class="n">${v==null?'—':sg(100*v,1)+' %'}</td><td class="n">${x.cierre?f(x.cierre):'—'}</td><td class="n ${c>0?'pos':c<0?'neg':''}">${c==null?'—':sg(100*c,1)+' %'}</td><td class="n">${f(x.stake,1)}</td><td>${RES[x.resultado]||x.resultado}</td><td class="n ${p>0?'pos':p<0?'neg':''}">${p==null?'':sg(p)}</td><td>${x.telegram?`<a href="${x.telegram}" target="_blank" rel="noopener">Ver</a>`:''}</td></tr>`}).join('');
+}
+function render(){
+  const list=CAT==='Todas'?ALL:ALL.filter(x=>x.categoria===CAT);
+  const cats=['Todas',...['Valor','Supercuota','Pick'].filter(c=>ALL.some(x=>x.categoria===c))];
+  $('#cats').innerHTML=cats.length>2?cats.map(c=>`<button class="${c===CAT?'on':''}" data-c="${c}">${c==='Todas'?'Todas':(EMO[c]+' #'+c)}</button>`).join(''):'';
+  document.querySelectorAll('#cats button').forEach(b=>b.onclick=()=>{CAT=b.dataset.c;render()});
+  kpis(stats(list));chart(list);bycat();table(list);
+}
+fetch('../data/picks.json',{cache:'no-store'}).then(r=>r.json()).then(p=>{ALL=p;render();
+  const last=p.reduce((a,x)=>x.publicado>a?x.publicado:a,'');
+  $('#upd').textContent=last?'Último pick publicado: '+new Date(last).toLocaleString('es-ES',{dateStyle:'long',timeStyle:'short'}):'';
+}).catch(()=>{ALL=[];render()});
+</script>
+</body>
+</html>
