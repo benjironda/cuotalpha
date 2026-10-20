@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "n": 1,
+  "publicado": "2026-10-20T22:45:00+02:00",
+  "telegram": "https://t.me/CuotAlpha/9",
+  "categoria": "Valor",
+  "destacado": false,
+  "liga": "LaLiga",
+  "partido": "Levante – Athletic Club",
+  "seleccion": "Empate",
+  "casa": "bet365",
+  "cuota": 3.5,
+  "cuota_min": 3.35,
+  "justa": 3.28,
+  "stake": 1,
+  "cierre": null,
+  "resultado": "pendiente",
+  "inicio": "2026-10-21T20:00:00+02:00"
+ },
+ {
+  "n": 2,
+  "publicado": "2026-10-20T22:45:00+02:00",
+  "telegram": "https://t.me/CuotAlpha/10",
+  "categoria": "Valor",
+  "destacado": false,
+  "liga": "LaLiga 2",
+  "partido": "Córdoba – Eibar",
+  "seleccion": "Empate",
+  "casa": "bet365",
+  "cuota": 3.6,
+  "cuota_min": 3.48,
+  "justa": 3.4,
+  "stake": 1,
+  "cierre": null,
+  "resultado": "pendiente",
+  "inicio": "2026-10-24T14:00:00+02:00"
+ },
+ {
+  "n": 3,
+  "publicado": "2026-10-20T22:45:00+02:00",
+  "telegram": "https://t.me/CuotAlpha/11",
+  "categoria": "Valor",
+  "destacado": false,
+  "liga": "Ligue 1",
+  "partido": "Mónaco – Lille",
+  "seleccion": "Empate",
+  "casa": "Codere",
+  "cuota": 3.45,
+  "cuota_min": 3.37,
+  "justa": 3.3,
+  "stake": 1,
+  "cierre": null,
+  "resultado": "pendiente",
+  "inicio": "2026-10-25T15:00:00+01:00"
+ }
+]
