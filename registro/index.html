@@ -91,7 +91,7 @@ function bycat(){
 }
 function table(list){
   if(!list.length){$('#t tbody').innerHTML='<tr><td colspan="16" class="empty">Los primeros picks se publican el fin de semana del 24 de octubre de 2026. Síguelos en directo en <a href="https://t.me/cuotalpha">Telegram</a>.</td></tr>';return}
-  $('#t tbody').innerHTML=[...list].sort((a,b)=>b.n-a.n).map(x=>{const v=x.justa?x.cuota/x.justa-1:null,c=x.cierre?x.cuota/x.cierre-1:null,p=x.resultado&&x.resultado!=='pendiente'?pl(x):null;
+  $('#t tbody').innerHTML=[...list].sort((a,b)=>b.n-a.n).map(x=>{const v=x.valor!=null?x.valor/100:(x.justa?x.cuota/x.justa-1:null),c=x.cierre?x.cuota/x.cierre-1:null,p=x.resultado&&x.resultado!=='pendiente'?pl(x):null;
     return `<tr><td>${x.n}</td><td>${new Date(x.publicado).toLocaleString('es-ES',{day:'2-digit',month:'2-digit',year:'2-digit',hour:'2-digit',minute:'2-digit'})}</td><td><span class="tag">${EMO[x.categoria]||''} ${x.categoria}${x.destacado?' ⭐':''}</span></td><td>${x.liga}</td><td>${x.partido}</td><td>${x.seleccion}</td><td>${x.casa}</td>
     <td class="n">${f(x.cuota)}</td><td class="n">${x.justa?f(x.justa):'—'}</td><td class="n">${v==null?'—':sg(100*v,1)+' %'}</td><td class="n">${x.cierre?f(x.cierre):'—'}</td><td class="n ${c>0?'pos':c<0?'neg':''}">${c==null?'—':sg(100*c,1)+' %'}</td><td class="n">${f(x.stake,1)}</td><td>${RES[x.resultado]||x.resultado}</td><td class="n ${p>0?'pos':p<0?'neg':''}">${p==null?'':sg(p)}</td><td>${x.telegram?`<a href="${x.telegram}" target="_blank" rel="noopener">Ver</a>`:''}</td></tr>`}).join('');
 }
