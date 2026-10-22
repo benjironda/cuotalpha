@@ -13,10 +13,11 @@
   "cuota_min": 3.35,
   "justa": 3.28,
   "stake": 1,
-  "cierre": null,
-  "resultado": "pendiente",
+  "cierre": 3.41,
+  "resultado": "perdida",
   "inicio": "2026-10-21T20:00:00+02:00",
-  "valor": 6.8
+  "valor": 6.8,
+  "marcador": "3-1"
  },
  {
   "n": 2,
