@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "n": 1,
+  "publicado": "2026-10-26T07:54:05Z",
+  "telegram": "https://t.me/CuotAlpha/15",
+  "categoria": "Valor",
+  "destacado": false,
+  "liga": "MLS",
+  "partido": "San José Earthquakes – Colorado Rapids",
+  "seleccion": "Gana Colorado Rapids",
+  "casa": "bet365",
+  "cuota": 3.4,
+  "cuota_min": 3.33,
+  "justa": 3.26,
+  "valor": 4.2,
+  "stake": 1,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-10-29T02:30:00Z"
+ }
+]
