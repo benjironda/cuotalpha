@@ -49,7 +49,7 @@ const sg=(v,d=2)=>(v>0?'+':v<0?'−':'')+f(Math.abs(v),d);
 const PL={ganada:x=>x.stake*(x.cuota-1),'medio ganada':x=>x.stake*(x.cuota-1)/2,nula:()=>0,'medio perdida':x=>-x.stake/2,perdida:x=>-x.stake};
 const pl=x=>(PL[x.resultado]||(()=>0))(x);
 const risk=x=>x.resultado==='nula'?0:(x.resultado==='medio ganada'||x.resultado==='medio perdida')?x.stake/2:x.stake;
-const EMO={Valor:'🟢',Supercuota:'🟡',Pick:'🔵'};
+const EMO={Valor:'🟢',Supercuota:'🟡',Pick:'🔵',Combinada:'🎯'};
 const RES={ganada:'✅ Ganada','medio ganada':'✅ ½ Ganada',nula:'➖ Nula','medio perdida':'❌ ½ Perdida',perdida:'❌ Perdida',pendiente:'⏳ Pendiente'};
 let ALL=[],CAT='Todas';
 function stats(list){
@@ -84,7 +84,7 @@ function chart(list){
   </svg>`;
 }
 function bycat(){
-  const cats=['Valor','Supercuota','Pick'].filter(c=>ALL.some(x=>x.categoria===c));
+  const cats=['Valor','Supercuota','Pick','Combinada'].filter(c=>ALL.some(x=>x.categoria===c));
   if(cats.length<2||CAT!=='Todas'){$('#bycat').innerHTML='';return}
   $('#bycat').innerHTML=`<div class="tw"><table><thead><tr><th>Categoría</th><th class="n">Picks</th><th class="n">Acierto</th><th class="n">Cuota media</th><th class="n">Unidades</th><th class="n">Yield</th><th class="n">CLV</th></tr></thead><tbody>${
     cats.map(c=>{const s=stats(ALL.filter(x=>x.categoria===c));return `<tr><td>${EMO[c]||''} #${c}</td><td class="n">${s.n}</td><td class="n">${s.hit==null?'—':f(100*s.hit,0)+' %'}</td><td class="n">${s.odds==null?'—':f(s.odds)}</td><td class="n ${s.u>0?'pos':s.u<0?'neg':''}">${s.d?sg(s.u):'—'}</td><td class="n">${s.y==null?'—':sg(100*s.y,1)+' %'}</td><td class="n">${s.clv==null?'—':sg(100*s.clv,1)+' %'}</td></tr>`}).join('')}</tbody></table></div>`;
@@ -97,7 +97,7 @@ function table(list){
 }
 function render(){
   const list=CAT==='Todas'?ALL:ALL.filter(x=>x.categoria===CAT);
-  const cats=['Todas',...['Valor','Supercuota','Pick'].filter(c=>ALL.some(x=>x.categoria===c))];
+  const cats=['Todas',...['Valor','Supercuota','Pick','Combinada'].filter(c=>ALL.some(x=>x.categoria===c))];
   $('#cats').innerHTML=cats.length>2?cats.map(c=>`<button class="${c===CAT?'on':''}" data-c="${c}">${c==='Todas'?'Todas':(EMO[c]+' #'+c)}</button>`).join(''):'';
   document.querySelectorAll('#cats button').forEach(b=>b.onclick=()=>{CAT=b.dataset.c;render()});
   kpis(stats(list));chart(list);bycat();table(list);
