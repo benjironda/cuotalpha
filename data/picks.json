@@ -20,36 +20,11 @@
   "inicio": "2026-10-29T02:30:00Z",
   "fx": "id1000024266299752",
   "mid": "101",
-  "oid": "103"
+  "oid": "103",
+  "n_antiguo": 1
  },
  {
   "n": 2,
-  "publicado": "2026-10-26T16:15:22Z",
-  "telegram": "https://t.me/CuotAlpha/18",
-  "categoria": "Valor",
-  "deporte": "baloncesto",
-  "destacado": false,
-  "liga": "Euroliga",
-  "partido": "Bayern Múnich – Barça",
-  "seleccion": "Gana Bayern (prórroga incluida)",
-  "casa": "bet365",
-  "cuota": 2.05,
-  "cuota_min": 1.98,
-  "justa": 1.93,
-  "valor": 6.0,
-  "stake": 1,
-  "cierre": 1.88,
-  "resultado": "perdida",
-  "marcador": "84-88",
-  "inicio": "2026-10-27T19:00:00Z",
-  "fx": "id1100013873263084",
-  "mid": "111",
-  "oid": "1",
-  "sport": 11,
-  "resultado_tg": "https://t.me/CuotAlpha/29"
- },
- {
-  "n": 3,
   "publicado": "2026-10-26T21:03:11Z",
   "telegram": "https://t.me/CuotAlpha/21",
   "categoria": "Valor",
@@ -70,10 +45,11 @@
   "inicio": "2026-10-27T19:45:00Z",
   "fx": "id1000017372740756",
   "mid": "10803",
-  "oid": "10804"
+  "oid": "10804",
+  "n_antiguo": 3
  },
  {
-  "n": 4,
+  "n": 3,
   "publicado": "2026-10-26T21:03:14Z",
   "telegram": "https://t.me/CuotAlpha/22",
   "categoria": "Valor",
@@ -94,10 +70,11 @@
   "inicio": "2026-10-27T19:45:00Z",
   "fx": "id1000017372740742",
   "mid": "10807",
-  "oid": "10807"
+  "oid": "10807",
+  "n_antiguo": 4
  },
  {
-  "n": 5,
+  "n": 4,
   "publicado": "2026-10-26T21:03:16Z",
   "telegram": "https://t.me/CuotAlpha/23",
   "categoria": "Valor",
@@ -118,60 +95,11 @@
   "inicio": "2026-10-28T17:30:00Z",
   "fx": "id1000002371945364",
   "mid": "10803",
-  "oid": "10803"
+  "oid": "10803",
+  "n_antiguo": 5
  },
  {
-  "n": 6,
-  "publicado": "2026-10-26T21:03:19Z",
-  "telegram": "https://t.me/CuotAlpha/24",
-  "categoria": "Valor",
-  "destacado": false,
-  "liga": "Serie B",
-  "partido": "Benevento – Catanzaro",
-  "seleccion": "Catanzaro (empate no válido)",
-  "casa": "bet365",
-  "cuota": 3.5,
-  "cuota_min": 3.46,
-  "justa": 3.39,
-  "valor": 3.3,
-  "stake": 1.5,
-  "modelo": "acuerdo",
-  "cierre": 4.81,
-  "resultado": "nula",
-  "marcador": "1-1",
-  "inicio": "2026-10-27T18:00:00Z",
-  "fx": "id1000005373093014",
-  "mid": "10214",
-  "oid": "10215",
-  "resultado_tg": "https://t.me/CuotAlpha/29"
- },
- {
-  "n": 7,
-  "publicado": "2026-10-26T21:03:21Z",
-  "telegram": "https://t.me/CuotAlpha/25",
-  "categoria": "Valor",
-  "destacado": false,
-  "liga": "Serie B",
-  "partido": "Cesena – Empoli",
-  "seleccion": "Gana Empoli",
-  "casa": "bet365",
-  "cuota": 3.7,
-  "cuota_min": 3.49,
-  "justa": 3.42,
-  "valor": 8.3,
-  "stake": 0.5,
-  "modelo": "contra",
-  "cierre": 4.22,
-  "resultado": "perdida",
-  "marcador": "2-1",
-  "inicio": "2026-10-27T19:00:00Z",
-  "fx": "id1000005373093018",
-  "mid": "101",
-  "oid": "103",
-  "resultado_tg": "https://t.me/CuotAlpha/29"
- },
- {
-  "n": 8,
+  "n": 5,
   "publicado": "2026-10-27T11:03:32Z",
   "telegram": "https://t.me/CuotAlpha/26",
   "categoria": "Pick",
@@ -191,10 +119,11 @@
   "inicio": "2026-10-27T19:45:00Z",
   "fx": "id1000002371945362",
   "mid": "104",
-  "oid": "104"
+  "oid": "104",
+  "n_antiguo": 8
  },
  {
-  "n": 9,
+  "n": 6,
   "publicado": "2026-10-27T21:04:11Z",
   "telegram": "https://t.me/CuotAlpha/28",
   "categoria": "Valor",
@@ -215,6 +144,7 @@
   "inicio": "2026-10-28T18:00:00Z",
   "fx": "id1000005373093030",
   "mid": "101",
-  "oid": "102"
+  "oid": "102",
+  "n_antiguo": 9
  }
 ]
