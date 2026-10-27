@@ -189,5 +189,29 @@
   "fx": "id1000002371945362",
   "mid": "104",
   "oid": "104"
+ },
+ {
+  "n": 9,
+  "publicado": "2026-10-27T21:04:11Z",
+  "telegram": "https://t.me/CuotAlpha/28",
+  "categoria": "Valor",
+  "destacado": false,
+  "liga": "Serie B",
+  "partido": "Pisa – Palermo",
+  "seleccion": "Empate",
+  "casa": "Codere",
+  "cuota": 3.35,
+  "cuota_min": 3.35,
+  "justa": 3.28,
+  "valor": 2.1,
+  "stake": 0.5,
+  "modelo": "contra",
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-10-28T18:00:00Z",
+  "fx": "id1000005373093030",
+  "mid": "101",
+  "oid": "102"
  }
 ]
