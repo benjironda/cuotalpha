@@ -166,5 +166,28 @@
   "fx": "id1000005373093018",
   "mid": "101",
   "oid": "103"
+ },
+ {
+  "n": 8,
+  "publicado": "2026-10-27T11:03:32Z",
+  "telegram": "https://t.me/CuotAlpha/26",
+  "categoria": "Pick",
+  "destacado": false,
+  "liga": "Serie A",
+  "partido": "Torino – Como",
+  "seleccion": "Ambos marcan: Sí",
+  "casa": "Codere",
+  "cuota": 1.67,
+  "cuota_min": null,
+  "justa": 1.73,
+  "valor": -3.5,
+  "stake": 1,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-10-27T19:45:00Z",
+  "fx": "id1000002371945362",
+  "mid": "104",
+  "oid": "104"
  }
 ]
