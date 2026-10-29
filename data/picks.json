@@ -14,14 +14,15 @@
   "justa": 3.26,
   "valor": 4.2,
   "stake": 1,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 3.3,
+  "resultado": "perdida",
+  "marcador": "2-2",
   "inicio": "2026-10-29T02:30:00Z",
   "fx": "id1000024266299752",
   "mid": "101",
   "oid": "103",
-  "n_antiguo": 1
+  "n_antiguo": 1,
+  "resultado_tg": "https://t.me/CuotAlpha/32"
  },
  {
   "n": 2,
@@ -89,14 +90,15 @@
   "valor": 4.0,
   "stake": 0.5,
   "modelo": "corners",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.13,
+  "resultado": "perdida",
+  "marcador": "0-2 (córners 3+6=9)",
   "inicio": "2026-10-28T17:30:00Z",
   "fx": "id1000002371945364",
   "mid": "10803",
   "oid": "10803",
-  "n_antiguo": 5
+  "n_antiguo": 5,
+  "resultado_tg": "https://t.me/CuotAlpha/32"
  },
  {
   "n": 5,
@@ -139,13 +141,14 @@
   "valor": 2.1,
   "stake": 0.5,
   "modelo": "contra",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 3.48,
+  "resultado": "ganada",
+  "marcador": "3-3",
   "inicio": "2026-10-28T18:00:00Z",
   "fx": "id1000005373093030",
   "mid": "101",
   "oid": "102",
-  "n_antiguo": 9
+  "n_antiguo": 9,
+  "resultado_tg": "https://t.me/CuotAlpha/32"
  }
 ]
