@@ -324,5 +324,28 @@
     "resultado": "pendiente"
    }
   ]
+ },
+ {
+  "n": 13,
+  "publicado": "2026-10-30T11:02:33Z",
+  "telegram": "https://t.me/CuotAlpha/41",
+  "categoria": "Pick",
+  "destacado": false,
+  "liga": "Liga Portugal",
+  "partido": "Casa Pia – Sporting de Portugal",
+  "seleccion": "Casa Pia no marca (menos de 0,5 goles del Casa Pia)",
+  "casa": "Codere",
+  "cuota": 1.95,
+  "cuota_min": null,
+  "justa": 2.02,
+  "valor": -3.4,
+  "stake": 1,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-10-30T20:15:00Z",
+  "fx": "id1000023872530988",
+  "mid": "10224",
+  "oid": "10225"
  }
 ]
