@@ -40,14 +40,15 @@
   "valor": 10.2,
   "stake": 0.5,
   "modelo": "corners",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.11,
+  "resultado": "ganada",
+  "marcador": "1-2 (córners 0+9=9)",
   "inicio": "2026-10-27T19:45:00Z",
   "fx": "id1000017372740756",
   "mid": "10803",
   "oid": "10804",
-  "n_antiguo": 3
+  "n_antiguo": 3,
+  "resultado_tg": "https://t.me/CuotAlpha/40"
  },
  {
   "n": 3,
@@ -65,14 +66,15 @@
   "valor": 7.6,
   "stake": 0.5,
   "modelo": "corners",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.33,
+  "resultado": "perdida",
+  "marcador": "3-1 (córners 5+3=8)",
   "inicio": "2026-10-27T19:45:00Z",
   "fx": "id1000017372740742",
   "mid": "10807",
   "oid": "10807",
-  "n_antiguo": 4
+  "n_antiguo": 4,
+  "resultado_tg": "https://t.me/CuotAlpha/40"
  },
  {
   "n": 4,
