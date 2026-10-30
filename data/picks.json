@@ -275,58 +275,6 @@
  },
  {
   "n": 12,
-  "publicado": "2026-10-30T09:05:07Z",
-  "telegram": "https://t.me/CuotAlpha/39",
-  "categoria": "Combinada",
-  "destacado": false,
-  "liga": "Serie A",
-  "partido": "Bologna – Monza + Milan – Inter + Juventus – Napoli",
-  "seleccion": "No hay empate (gana Bologna o Monza) @1,29 + Inter o empate @1,33 + Juventus o empate @1,37",
-  "casa": "Winamax",
-  "cuota": 2.35,
-  "cuota_min": null,
-  "justa": 2.48,
-  "valor": -5.1,
-  "stake": 0.5,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
-  "inicio": "2026-10-31T14:00:00Z",
-  "legs": [
-   {
-    "fx": "id1000002371945368",
-    "mid": "101902",
-    "oid": "101903",
-    "partido": "Bologna – Monza",
-    "seleccion": "No hay empate (gana Bologna o Monza)",
-    "cuota": 1.29,
-    "inicio": "2026-10-31T14:00:00.000Z",
-    "resultado": "pendiente"
-   },
-   {
-    "fx": "id1000002371945380",
-    "mid": "101902",
-    "oid": "101904",
-    "partido": "Milan – Inter",
-    "seleccion": "Inter o empate",
-    "cuota": 1.33,
-    "inicio": "2026-10-31T19:45:00.000Z",
-    "resultado": "pendiente"
-   },
-   {
-    "fx": "id1000002371945374",
-    "mid": "101902",
-    "oid": "101902",
-    "partido": "Juventus – Napoli",
-    "seleccion": "Juventus o empate",
-    "cuota": 1.37,
-    "inicio": "2026-11-01T19:45:00.000Z",
-    "resultado": "pendiente"
-   }
-  ]
- },
- {
-  "n": 13,
   "publicado": "2026-10-30T11:02:33Z",
   "telegram": "https://t.me/CuotAlpha/41",
   "categoria": "Pick",
