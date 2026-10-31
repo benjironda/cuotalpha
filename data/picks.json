@@ -295,5 +295,28 @@
   "fx": "id1000023872530988",
   "mid": "10224",
   "oid": "10225"
+ },
+ {
+  "n": 13,
+  "publicado": "2026-10-31T11:03:40Z",
+  "telegram": "https://t.me/CuotAlpha/43",
+  "categoria": "Pick",
+  "destacado": false,
+  "liga": "LaLiga",
+  "partido": "Rayo Vallecano – Celta",
+  "seleccion": "Menos de 2,5 goles",
+  "casa": "1xBet",
+  "cuota": 1.76,
+  "cuota_min": null,
+  "justa": 1.78,
+  "valor": -1.1,
+  "stake": 1.0,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-10-31T15:15:00Z",
+  "fx": "id1000000872478682",
+  "mid": "1010",
+  "oid": "1011"
  }
 ]
