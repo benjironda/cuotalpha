@@ -288,13 +288,14 @@
   "justa": 2.02,
   "valor": -3.4,
   "stake": 1,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.29,
+  "resultado": "ganada",
+  "marcador": "0-2",
   "inicio": "2026-10-30T20:15:00Z",
   "fx": "id1000023872530988",
   "mid": "10224",
-  "oid": "10225"
+  "oid": "10225",
+  "resultado_tg": "https://t.me/CuotAlpha/44"
  },
  {
   "n": 13,
