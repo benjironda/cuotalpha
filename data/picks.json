@@ -319,5 +319,28 @@
   "fx": "id1000000872478682",
   "mid": "1010",
   "oid": "1011"
+ },
+ {
+  "n": 14,
+  "publicado": "2026-11-01T11:02:56Z",
+  "telegram": "https://t.me/CuotAlpha/46",
+  "categoria": "Pick",
+  "destacado": false,
+  "liga": "LaLiga",
+  "partido": "Racing de Santander – Real Madrid",
+  "seleccion": "Racing +2,25 (hándicap asiático)",
+  "casa": "1xBet",
+  "cuota": 1.74,
+  "cuota_min": null,
+  "justa": 1.8,
+  "valor": -3.6,
+  "stake": 0.5,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-01T15:15:00Z",
+  "fx": "id1000000872478680",
+  "mid": "1090",
+  "oid": "1090"
  }
 ]
