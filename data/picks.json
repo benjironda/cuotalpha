@@ -265,13 +265,14 @@
   "valor": 9.0,
   "stake": 0.5,
   "modelo": "contra",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 3.33,
+  "resultado": "perdida",
+  "marcador": "0-1",
   "inicio": "2026-11-01T16:00:00Z",
   "fx": "id1000018572936118",
   "mid": "101",
-  "oid": "102"
+  "oid": "102",
+  "resultado_tg": "https://t.me/CuotAlpha/49"
  },
  {
   "n": 12,
@@ -336,12 +337,13 @@
   "justa": 1.8,
   "valor": -3.6,
   "stake": 0.5,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 1.82,
+  "resultado": "perdida",
+  "marcador": "0-3",
   "inicio": "2026-11-01T15:15:00Z",
   "fx": "id1000000872478680",
   "mid": "1090",
-  "oid": "1090"
+  "oid": "1090",
+  "resultado_tg": "https://t.me/CuotAlpha/49"
  }
 ]
