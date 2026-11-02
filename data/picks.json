@@ -14,13 +14,14 @@
   "justa": 1.92,
   "valor": -0.5,
   "stake": 1.0,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.06,
+  "resultado": "ganada",
+  "marcador": "2-4",
   "inicio": "2026-11-02T17:30:00Z",
   "fx": "id1000002371945382",
   "mid": "10174",
-  "oid": "10174"
+  "oid": "10174",
+  "clv": -7.2
  },
  {
   "n": 2,
