@@ -62,5 +62,293 @@
 "A": "Cádiz",
 "start": "2026-11-02T20:00:00+00:00",
 "fecha": "lunes 2 de noviembre de 2026, 21:00"
+},
+{
+"slug": "shakhtar-donetsk-sporting-de-portugal-2026-11-03",
+"lg": "Champions League",
+"H": "Shakhtar Donetsk",
+"A": "Sporting de Portugal",
+"start": "2026-11-03T17:45:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 18:45"
+},
+{
+"slug": "galatasaray-istanbul-vfb-stuttgart-2026-11-03",
+"lg": "Champions League",
+"H": "Galatasaray Istanbul",
+"A": "VfB Stuttgart",
+"start": "2026-11-03T17:45:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 18:45"
+},
+{
+"slug": "atletico-de-madrid-bayern-de-munich-2026-11-03",
+"lg": "Champions League",
+"H": "Atlético de Madrid",
+"A": "Bayern de Múnich",
+"start": "2026-11-03T20:00:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 21:00"
+},
+{
+"slug": "barcelona-aston-villa-2026-11-03",
+"lg": "Champions League",
+"H": "Barcelona",
+"A": "Aston Villa",
+"start": "2026-11-03T20:00:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 21:00"
+},
+{
+"slug": "feyenoord-inter-2026-11-03",
+"lg": "Champions League",
+"H": "Feyenoord",
+"A": "Inter",
+"start": "2026-11-03T20:00:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 21:00"
+},
+{
+"slug": "bodoe-glimt-lille-osc-2026-11-03",
+"lg": "Champions League",
+"H": "Bodoe/Glimt",
+"A": "Lille OSC",
+"start": "2026-11-03T20:00:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 21:00"
+},
+{
+"slug": "lask-linz-slovan-bratislava-2026-11-03",
+"lg": "Champions League",
+"H": "LASK Linz",
+"A": "Slovan Bratislava",
+"start": "2026-11-03T20:00:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 21:00"
+},
+{
+"slug": "manchester-united-roma-2026-11-03",
+"lg": "Champions League",
+"H": "Manchester United",
+"A": "Roma",
+"start": "2026-11-03T20:00:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 21:00"
+},
+{
+"slug": "villarreal-psg-2026-11-03",
+"lg": "Champions League",
+"H": "Villarreal",
+"A": "PSG",
+"start": "2026-11-03T20:00:00+00:00",
+"fecha": "martes 3 de noviembre de 2026, 21:00"
+},
+{
+"slug": "stade-rennais-olympiacos-piraeus-2026-11-04",
+"lg": "Europa League",
+"H": "Stade Rennais",
+"A": "Olympiacos Piraeus",
+"start": "2026-11-04T15:30:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 16:30"
+},
+{
+"slug": "aek-athens-real-madrid-2026-11-04",
+"lg": "Champions League",
+"H": "AEK Athens",
+"A": "Real Madrid",
+"start": "2026-11-04T17:45:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 18:45"
+},
+{
+"slug": "fenerbahce-istanbul-liverpool-2026-11-04",
+"lg": "Champions League",
+"H": "Fenerbahce Istanbul",
+"A": "Liverpool",
+"start": "2026-11-04T17:45:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 18:45"
+},
+{
+"slug": "borussia-dortmund-real-betis-2026-11-04",
+"lg": "Champions League",
+"H": "Borussia Dortmund",
+"A": "Real Betis",
+"start": "2026-11-04T20:00:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 21:00"
+},
+{
+"slug": "oporto-napoli-2026-11-04",
+"lg": "Champions League",
+"H": "Oporto",
+"A": "Napoli",
+"start": "2026-11-04T20:00:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 21:00"
+},
+{
+"slug": "psv-club-brugge-2026-11-04",
+"lg": "Champions League",
+"H": "PSV",
+"A": "Club Brugge",
+"start": "2026-11-04T20:00:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 21:00"
+},
+{
+"slug": "rb-leipzig-manchester-city-2026-11-04",
+"lg": "Champions League",
+"H": "RB Leipzig",
+"A": "Manchester City",
+"start": "2026-11-04T20:00:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 21:00"
+},
+{
+"slug": "racing-club-de-lens-como-2026-11-04",
+"lg": "Champions League",
+"H": "Racing Club De Lens",
+"A": "Como",
+"start": "2026-11-04T20:00:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 21:00"
+},
+{
+"slug": "slavia-prague-arsenal-2026-11-04",
+"lg": "Champions League",
+"H": "Slavia Prague",
+"A": "Arsenal",
+"start": "2026-11-04T20:00:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 21:00"
+},
+{
+"slug": "viking-fk-sabah-masazir-2026-11-04",
+"lg": "Champions League",
+"H": "Viking FK",
+"A": "Sabah Masazir",
+"start": "2026-11-04T20:00:00+00:00",
+"fecha": "miércoles 4 de noviembre de 2026, 21:00"
+},
+{
+"slug": "milan-ferencvarosi-budapest-2026-11-05",
+"lg": "Europa League",
+"H": "Milan",
+"A": "Ferencvarosi Budapest",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "sparta-prague-bournemouth-2026-11-05",
+"lg": "Europa League",
+"H": "Sparta Prague",
+"A": "Bournemouth",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "crystal-palace-tsg-hoffenheim-2026-11-05",
+"lg": "Europa League",
+"H": "Crystal Palace",
+"A": "TSG Hoffenheim",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "lillestroem-sk-viktoria-plzen-2026-11-05",
+"lg": "Europa League",
+"H": "Lillestroem SK",
+"A": "Viktoria Plzen",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "levski-sofia-jagiellonia-bialystok-2026-11-05",
+"lg": "Europa League",
+"H": "Levski Sofia",
+"A": "Jagiellonia Bialystok",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "real-sociedad-olympique-lyon-2026-11-05",
+"lg": "Europa League",
+"H": "Real Sociedad",
+"A": "Olympique Lyon",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "anderlecht-salzburg-2026-11-05",
+"lg": "Europa League",
+"H": "Anderlecht",
+"A": "Salzburg",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "nec-nijmegen-omonia-nicosia-2026-11-05",
+"lg": "Europa League",
+"H": "NEC Nijmegen",
+"A": "Omonia Nicosia",
+"start": "2026-11-05T17:45:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 18:45"
+},
+{
+"slug": "az-alkmaar-juventus-2026-11-05",
+"lg": "Europa League",
+"H": "AZ Alkmaar",
+"A": "Juventus",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "celtic-glasgow-besiktas-istanbul-2026-11-05",
+"lg": "Europa League",
+"H": "Celtic Glasgow",
+"A": "Besiktas Istanbul",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "hapoel-be-er-sheva-ofi-crete-2026-11-05",
+"lg": "Europa League",
+"H": "Hapoel Be`er Sheva",
+"A": "OFI Crete",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "scu-torreense-ararat-armenia-2026-11-05",
+"lg": "Europa League",
+"H": "SCU Torreense",
+"A": "Ararat-Armenia",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "benfica-kks-lech-poznan-2026-11-05",
+"lg": "Europa League",
+"H": "Benfica",
+"A": "KKS Lech Poznan",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "sunderland-gnk-dinamo-zagreb-2026-11-05",
+"lg": "Europa League",
+"H": "Sunderland",
+"A": "GNK Dinamo Zagreb",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "bayer-leverkusen-olympique-marseille-2026-11-05",
+"lg": "Europa League",
+"H": "Bayer Leverkusen",
+"A": "Olympique Marseille",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "celta-de-vigo-union-saint-gilloise-2026-11-05",
+"lg": "Europa League",
+"H": "Celta de Vigo",
+"A": "Union Saint-Gilloise",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "sturm-graz-celje-2026-11-05",
+"lg": "Europa League",
+"H": "Sturm Graz",
+"A": "Celje",
+"start": "2026-11-05T20:00:00+00:00",
+"fecha": "jueves 5 de noviembre de 2026, 21:00"
 }
 ]
