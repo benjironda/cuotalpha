@@ -118,5 +118,28 @@
   "fx": "id1000067974173052",
   "mid": "1060",
   "oid": "1060"
+ },
+ {
+  "n": 6,
+  "publicado": "2026-11-03T11:00:57Z",
+  "telegram": "https://t.me/CuotAlpha/61",
+  "categoria": "Pick",
+  "destacado": false,
+  "liga": "Championship",
+  "partido": "Birmingham City – Millwall",
+  "seleccion": "Más de 3,5 tarjetas",
+  "casa": "1xBet",
+  "cuota": 2.16,
+  "cuota_min": null,
+  "justa": 2.05,
+  "valor": 5.5,
+  "stake": 1.0,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-03T20:00:00Z",
+  "fx": "id1000001872339984",
+  "mid": "10926",
+  "oid": "10926"
  }
 ]
