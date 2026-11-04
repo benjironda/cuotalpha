@@ -63,13 +63,14 @@
   "valor": 3.3,
   "stake": 0.5,
   "modelo": "neutro",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 3.36,
+  "resultado": "perdida",
+  "marcador": "3-1",
   "inicio": "2026-11-03T19:45:00Z",
   "fx": "id1000001872339990",
   "mid": "108",
-  "oid": "109"
+  "oid": "109",
+  "clv": 4.3
  },
  {
   "n": 4,
