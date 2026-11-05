@@ -39,13 +39,14 @@
   "valor": 8.7,
   "stake": 1.5,
   "modelo": "neutro",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.29,
+  "resultado": "perdida",
+  "marcador": "3-1",
   "inicio": "2026-11-05T20:00:00Z",
   "fx": "id1000067974173056",
   "mid": "1052",
-  "oid": "1052"
+  "oid": "1052",
+  "clv": 0.6
  },
  {
   "n": 3,
@@ -87,14 +88,15 @@
   "justa": 2.05,
   "valor": 5.5,
   "stake": 1.0,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.29,
+  "resultado": "perdida",
+  "marcador": "3-0",
   "inicio": "2026-11-03T20:00:00Z",
   "fx": "id1000001872339984",
   "mid": "10926",
   "oid": "10926",
-  "n_antiguo": 6
+  "n_antiguo": 6,
+  "clv": -5.7
  },
  {
   "n": 5,
@@ -112,14 +114,15 @@
   "valor": 4.2,
   "stake": 1.0,
   "modelo": "neutro",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 1.71,
+  "resultado": "ganada",
+  "marcador": "3-2",
   "inicio": "2026-11-05T20:00:00Z",
   "fx": "id1000067974173044",
   "mid": "10174",
   "oid": "10174",
-  "n_antiguo": 7
+  "n_antiguo": 7,
+  "clv": 19.0
  },
  {
   "n": 6,
@@ -136,12 +139,13 @@
   "justa": 1.89,
   "valor": 0.4,
   "stake": 1.5,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 1.95,
+  "resultado": "ganada",
+  "marcador": "1-2",
   "inicio": "2026-11-05T20:00:00Z",
   "fx": "id1000067974173048",
   "mid": "1070",
-  "oid": "1071"
+  "oid": "1071",
+  "clv": -2.6
  }
 ]
