@@ -120,5 +120,28 @@
   "mid": "10174",
   "oid": "10174",
   "n_antiguo": 7
+ },
+ {
+  "n": 6,
+  "publicado": "2026-11-05T10:59:54Z",
+  "telegram": "https://t.me/CuotAlpha/72",
+  "categoria": "Pick",
+  "destacado": false,
+  "liga": "Europa League",
+  "partido": "Celta de Vigo – Union Saint-Gilloise",
+  "seleccion": "Union Saint-Gilloise +0,25 (hándicap asiático)",
+  "casa": "1xBet",
+  "cuota": 1.9,
+  "cuota_min": null,
+  "justa": 1.89,
+  "valor": 0.4,
+  "stake": 1.5,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-05T20:00:00Z",
+  "fx": "id1000067974173048",
+  "mid": "1070",
+  "oid": "1071"
  }
 ]
