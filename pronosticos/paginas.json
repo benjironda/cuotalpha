@@ -350,5 +350,453 @@
 "A": "Celje",
 "start": "2026-11-05T20:00:00+00:00",
 "fecha": "jueves 5 de noviembre de 2026, 21:00"
+},
+{
+"slug": "castellon-eibar-2026-11-06",
+"lg": "LaLiga Hypermotion",
+"H": "Castellon",
+"A": "Eibar",
+"start": "2026-11-06T19:30:00+00:00",
+"fecha": "viernes 6 de noviembre de 2026, 20:30"
+},
+{
+"slug": "hamburger-sv-borussia-monchengladbach-2026-11-06",
+"lg": "Bundesliga",
+"H": "Hamburger SV",
+"A": "Borussia Monchengladbach",
+"start": "2026-11-06T19:30:00+00:00",
+"fecha": "viernes 6 de noviembre de 2026, 20:30"
+},
+{
+"slug": "venezia-udinese-2026-11-06",
+"lg": "Serie A",
+"H": "Venezia",
+"A": "Udinese",
+"start": "2026-11-06T19:45:00+00:00",
+"fecha": "viernes 6 de noviembre de 2026, 20:45"
+},
+{
+"slug": "toulouse-strasbourg-alsace-2026-11-06",
+"lg": "Ligue 1",
+"H": "Toulouse",
+"A": "Strasbourg Alsace",
+"start": "2026-11-06T19:45:00+00:00",
+"fecha": "viernes 6 de noviembre de 2026, 20:45"
+},
+{
+"slug": "sevilla-alaves-2026-11-06",
+"lg": "LaLiga",
+"H": "Sevilla",
+"A": "Alavés",
+"start": "2026-11-06T20:00:00+00:00",
+"fecha": "viernes 6 de noviembre de 2026, 21:00"
+},
+{
+"slug": "everton-coventry-city-2026-11-06",
+"lg": "Premier League",
+"H": "Everton",
+"A": "Coventry City",
+"start": "2026-11-06T20:00:00+00:00",
+"fecha": "viernes 6 de noviembre de 2026, 21:00"
+},
+{
+"slug": "leeds-united-tottenham-hotspur-2026-11-07",
+"lg": "Premier League",
+"H": "Leeds United",
+"A": "Tottenham Hotspur",
+"start": "2026-11-07T12:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 13:30"
+},
+{
+"slug": "malaga-racing-santander-2026-11-07",
+"lg": "LaLiga",
+"H": "Málaga",
+"A": "Racing Santander",
+"start": "2026-11-07T13:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 14:00"
+},
+{
+"slug": "burgos-celta-fortuna-2026-11-07",
+"lg": "LaLiga Hypermotion",
+"H": "Burgos",
+"A": "Celta Fortuna",
+"start": "2026-11-07T13:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 14:00"
+},
+{
+"slug": "cagliari-frosinone-2026-11-07",
+"lg": "Serie A",
+"H": "Cagliari",
+"A": "Frosinone",
+"start": "2026-11-07T14:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 15:00"
+},
+{
+"slug": "torino-lecce-2026-11-07",
+"lg": "Serie A",
+"H": "Torino",
+"A": "Lecce",
+"start": "2026-11-07T14:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 15:00"
+},
+{
+"slug": "fsv-mainz-bayern-de-munich-2026-11-07",
+"lg": "Bundesliga",
+"H": "FSV Mainz",
+"A": "Bayern de Múnich",
+"start": "2026-11-07T14:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 15:30"
+},
+{
+"slug": "borussia-dortmund-elversberg-2026-11-07",
+"lg": "Bundesliga",
+"H": "Borussia Dortmund",
+"A": "Elversberg",
+"start": "2026-11-07T14:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 15:30"
+},
+{
+"slug": "rb-leipzig-augsburg-2026-11-07",
+"lg": "Bundesliga",
+"H": "RB Leipzig",
+"A": "Augsburg",
+"start": "2026-11-07T14:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 15:30"
+},
+{
+"slug": "sc-paderborn-07-eintracht-frankfurt-2026-11-07",
+"lg": "Bundesliga",
+"H": "SC Paderborn 07",
+"A": "Eintracht Frankfurt",
+"start": "2026-11-07T14:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 15:30"
+},
+{
+"slug": "arsenal-hull-city-2026-11-07",
+"lg": "Premier League",
+"H": "Arsenal",
+"A": "Hull City",
+"start": "2026-11-07T15:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 16:00"
+},
+{
+"slug": "fulham-newcastle-united-2026-11-07",
+"lg": "Premier League",
+"H": "Fulham",
+"A": "Newcastle United",
+"start": "2026-11-07T15:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 16:00"
+},
+{
+"slug": "espanyol-deportivo-2026-11-07",
+"lg": "LaLiga",
+"H": "Espanyol",
+"A": "Deportivo",
+"start": "2026-11-07T15:15:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 16:15"
+},
+{
+"slug": "cadiz-real-oviedo-2026-11-07",
+"lg": "LaLiga Hypermotion",
+"H": "Cádiz",
+"A": "Real Oviedo",
+"start": "2026-11-07T15:15:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 16:15"
+},
+{
+"slug": "parma-bologna-2026-11-07",
+"lg": "Serie A",
+"H": "Parma",
+"A": "Bologna",
+"start": "2026-11-07T17:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 18:00"
+},
+{
+"slug": "vfb-stuttgart-werder-bremen-2026-11-07",
+"lg": "Bundesliga",
+"H": "VfB Stuttgart",
+"A": "Werder Bremen",
+"start": "2026-11-07T17:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 18:30"
+},
+{
+"slug": "nottingham-forest-manchester-city-2026-11-07",
+"lg": "Premier League",
+"H": "Nottingham Forest",
+"A": "Manchester City",
+"start": "2026-11-07T17:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 18:30"
+},
+{
+"slug": "osasuna-athletic-club-2026-11-07",
+"lg": "LaLiga",
+"H": "Osasuna",
+"A": "Athletic Club",
+"start": "2026-11-07T17:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 18:30"
+},
+{
+"slug": "cordoba-ad-ceuta-2026-11-07",
+"lg": "LaLiga Hypermotion",
+"H": "Cordoba",
+"A": "AD Ceuta",
+"start": "2026-11-07T17:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 18:30"
+},
+{
+"slug": "leganes-albacete-balompie-2026-11-07",
+"lg": "LaLiga Hypermotion",
+"H": "Leganes",
+"A": "Albacete Balompie",
+"start": "2026-11-07T17:30:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 18:30"
+},
+{
+"slug": "auxerre-paris-fc-2026-11-07",
+"lg": "Ligue 1",
+"H": "Auxerre",
+"A": "Paris FC",
+"start": "2026-11-07T18:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 19:00"
+},
+{
+"slug": "roma-sassuolo-2026-11-07",
+"lg": "Serie A",
+"H": "Roma",
+"A": "Sassuolo",
+"start": "2026-11-07T19:45:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 20:45"
+},
+{
+"slug": "valencia-real-madrid-2026-11-07",
+"lg": "LaLiga",
+"H": "Valencia",
+"A": "Real Madrid",
+"start": "2026-11-07T20:00:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 21:00"
+},
+{
+"slug": "psg-estac-troyes-2026-11-07",
+"lg": "Ligue 1",
+"H": "PSG",
+"A": "ESTAC Troyes",
+"start": "2026-11-07T20:05:00+00:00",
+"fecha": "sábado 7 de noviembre de 2026, 21:05"
+},
+{
+"slug": "napoli-lazio-2026-11-08",
+"lg": "Serie A",
+"H": "Napoli",
+"A": "Lazio",
+"start": "2026-11-08T11:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 12:30"
+},
+{
+"slug": "elche-real-betis-2026-11-08",
+"lg": "LaLiga",
+"H": "Elche",
+"A": "Real Betis",
+"start": "2026-11-08T13:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 14:00"
+},
+{
+"slug": "monza-atalanta-2026-11-08",
+"lg": "Serie A",
+"H": "Monza",
+"A": "Atalanta",
+"start": "2026-11-08T14:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:00"
+},
+{
+"slug": "stade-rennais-lille-osc-2026-11-08",
+"lg": "Ligue 1",
+"H": "Stade Rennais",
+"A": "Lille OSC",
+"start": "2026-11-08T14:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:00"
+},
+{
+"slug": "brighton-hove-albion-brentford-2026-11-08",
+"lg": "Premier League",
+"H": "Brighton & Hove Albion",
+"A": "Brentford",
+"start": "2026-11-08T14:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:00"
+},
+{
+"slug": "crystal-palace-liverpool-2026-11-08",
+"lg": "Premier League",
+"H": "Crystal Palace",
+"A": "Liverpool",
+"start": "2026-11-08T14:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:00"
+},
+{
+"slug": "ipswich-town-bournemouth-2026-11-08",
+"lg": "Premier League",
+"H": "Ipswich Town",
+"A": "Bournemouth",
+"start": "2026-11-08T14:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:00"
+},
+{
+"slug": "sunderland-chelsea-2026-11-08",
+"lg": "Premier League",
+"H": "Sunderland",
+"A": "Chelsea",
+"start": "2026-11-08T14:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:00"
+},
+{
+"slug": "genoa-milan-2026-11-08",
+"lg": "Serie A",
+"H": "Genoa",
+"A": "Milan",
+"start": "2026-11-08T14:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:00"
+},
+{
+"slug": "1-fc-cologne-bayer-leverkusen-2026-11-08",
+"lg": "Bundesliga",
+"H": "1. FC Cologne",
+"A": "Bayer Leverkusen",
+"start": "2026-11-08T14:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 15:30"
+},
+{
+"slug": "real-sociedad-rayo-vallecano-2026-11-08",
+"lg": "LaLiga",
+"H": "Real Sociedad",
+"A": "Rayo Vallecano",
+"start": "2026-11-08T15:15:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 16:15"
+},
+{
+"slug": "girona-almeria-2026-11-08",
+"lg": "LaLiga Hypermotion",
+"H": "Girona",
+"A": "Almería",
+"start": "2026-11-08T15:15:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 16:15"
+},
+{
+"slug": "angers-sco-nice-2026-11-08",
+"lg": "Ligue 1",
+"H": "Angers SCO",
+"A": "Nice",
+"start": "2026-11-08T16:15:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 17:15"
+},
+{
+"slug": "brest-olympique-lyon-2026-11-08",
+"lg": "Ligue 1",
+"H": "Brest",
+"A": "Olympique Lyon",
+"start": "2026-11-08T16:15:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 17:15"
+},
+{
+"slug": "le-havre-ac-lorient-2026-11-08",
+"lg": "Ligue 1",
+"H": "Le Havre AC",
+"A": "Lorient",
+"start": "2026-11-08T16:15:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 17:15"
+},
+{
+"slug": "le-mans-monaco-2026-11-08",
+"lg": "Ligue 1",
+"H": "Le Mans",
+"A": "Monaco",
+"start": "2026-11-08T16:15:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 17:15"
+},
+{
+"slug": "sc-freiburg-union-berlin-2026-11-08",
+"lg": "Bundesliga",
+"H": "SC Freiburg",
+"A": "Union Berlin",
+"start": "2026-11-08T16:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 17:30"
+},
+{
+"slug": "manchester-united-aston-villa-2026-11-08",
+"lg": "Premier League",
+"H": "Manchester United",
+"A": "Aston Villa",
+"start": "2026-11-08T16:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 17:30"
+},
+{
+"slug": "inter-como-2026-11-08",
+"lg": "Serie A",
+"H": "Inter",
+"A": "Como",
+"start": "2026-11-08T17:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 18:00"
+},
+{
+"slug": "celta-de-vigo-levante-ud-2026-11-08",
+"lg": "LaLiga",
+"H": "Celta de Vigo",
+"A": "Levante UD",
+"start": "2026-11-08T17:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 18:30"
+},
+{
+"slug": "villarreal-getafe-2026-11-08",
+"lg": "LaLiga",
+"H": "Villarreal",
+"A": "Getafe",
+"start": "2026-11-08T17:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 18:30"
+},
+{
+"slug": "sporting-gijon-real-valladolid-2026-11-08",
+"lg": "LaLiga Hypermotion",
+"H": "Sporting Gijon",
+"A": "Real Valladolid",
+"start": "2026-11-08T17:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 18:30"
+},
+{
+"slug": "tsg-hoffenheim-schalke-04-2026-11-08",
+"lg": "Bundesliga",
+"H": "TSG Hoffenheim",
+"A": "Schalke 04",
+"start": "2026-11-08T18:30:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 19:30"
+},
+{
+"slug": "fiorentina-juventus-2026-11-08",
+"lg": "Serie A",
+"H": "Fiorentina",
+"A": "Juventus",
+"start": "2026-11-08T19:45:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 20:45"
+},
+{
+"slug": "racing-club-de-lens-olympique-marseille-2026-11-08",
+"lg": "Ligue 1",
+"H": "Racing Club De Lens",
+"A": "Olympique Marseille",
+"start": "2026-11-08T19:45:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 20:45"
+},
+{
+"slug": "atletico-de-madrid-barcelona-2026-11-08",
+"lg": "LaLiga",
+"H": "Atlético de Madrid",
+"A": "Barcelona",
+"start": "2026-11-08T20:00:00+00:00",
+"fecha": "domingo 8 de noviembre de 2026, 21:00"
+},
+{
+"slug": "sabadell-real-sociedad-san-sebastian-b-2026-11-09",
+"lg": "LaLiga Hypermotion",
+"H": "Sabadell",
+"A": "Real Sociedad San Sebastian B",
+"start": "2026-11-09T19:30:00+00:00",
+"fecha": "lunes 9 de noviembre de 2026, 20:30"
 }
 ]
