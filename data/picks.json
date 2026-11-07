@@ -245,5 +245,30 @@
   "fx": "id1000002371945404",
   "mid": "10924",
   "oid": "10924"
+ },
+ {
+  "n": 10,
+  "publicado": "2026-11-07T11:03:03Z",
+  "telegram": "https://t.me/CuotAlpha/87",
+  "categoria": "Pick",
+  "deporte": "NFL",
+  "destacado": false,
+  "liga": "NFL (partido en Madrid)",
+  "partido": "Atlanta Falcons – Cincinnati Bengals",
+  "seleccion": "Gana Cincinnati Bengals",
+  "casa": "bet365",
+  "cuota": 1.59,
+  "cuota_min": null,
+  "justa": 1.64,
+  "valor": -3.3,
+  "stake": 0.5,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-08T14:30:00Z",
+  "fx": "id1400003171474296",
+  "mid": "141",
+  "oid": "2",
+  "sport": 14
  }
 ]
