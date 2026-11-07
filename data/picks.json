@@ -164,9 +164,9 @@
   "valor": 9.2,
   "stake": 1.5,
   "modelo": "neutro",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 2.33,
+  "resultado": "ganada",
+  "marcador": "1-0",
   "inicio": "2026-11-06T20:45:00Z",
   "fx": "id1000023872531006",
   "mid": "10168",
@@ -175,7 +175,8 @@
    "El Arouca no ha encajado ningún gol en liga desde que llegó Vítor Severino en octubre.",
    "Los cuatro últimos Famalicão–Arouca: 0-0, 1-2, 1-1 y 1-0.",
    "La mitad de los 8 últimos partidos del Arouca fuera de casa acabaron con 1 gol o menos."
-  ]
+  ],
+  "clv": 9.2
  },
  {
   "n": 8,
@@ -205,7 +206,8 @@
     "seleccion": "Borussia Dortmund: menos de 3,5 goles",
     "cuota": 1.37,
     "inicio": "2026-11-07T14:30:00.000Z",
-    "resultado": "pendiente"
+    "resultado": "ganada",
+    "marcador": "2-1"
    },
    {
     "fx": "id1000000872478688",
