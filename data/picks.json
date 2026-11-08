@@ -272,5 +272,28 @@
   "mid": "141",
   "oid": "2",
   "sport": 14
+ },
+ {
+  "n": 11,
+  "publicado": "2026-11-08T10:58:26Z",
+  "telegram": "https://t.me/CuotAlpha/91",
+  "categoria": "Pick",
+  "destacado": false,
+  "liga": "Ligue 1",
+  "partido": "RC Lens – Olympique de Marsella",
+  "seleccion": "Más de 3,5 tarjetas",
+  "casa": "1xBet",
+  "cuota": 1.93,
+  "cuota_min": null,
+  "justa": 1.87,
+  "valor": 3.1,
+  "stake": 0.5,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-08T19:45:00Z",
+  "fx": "id1000003472036284",
+  "mid": "10926",
+  "oid": "10926"
  }
 ]
