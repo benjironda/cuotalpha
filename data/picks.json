@@ -302,5 +302,30 @@
   "mid": "10926",
   "oid": "10926",
   "clv": 5.2
+ },
+ {
+  "n": 12,
+  "publicado": "2026-11-09T11:02:57Z",
+  "telegram": "https://t.me/CuotAlpha/95",
+  "categoria": "Pick",
+  "deporte": "baloncesto",
+  "destacado": false,
+  "liga": "NBA",
+  "partido": "Atlanta Hawks – Los Angeles Lakers",
+  "seleccion": "Gana Atlanta Hawks",
+  "casa": "bet365",
+  "cuota": 2.13,
+  "cuota_min": null,
+  "justa": 2.11,
+  "valor": 1.0,
+  "stake": 1.5,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-10T00:00:00Z",
+  "fx": "id1100013273719576",
+  "mid": "111",
+  "oid": "1",
+  "sport": 11
  }
 ]
