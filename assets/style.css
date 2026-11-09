@@ -59,3 +59,4 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
 .chart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:22px}
 .empty{text-align:center;padding:50px 20px;color:var(--mut)}
 .note{font-size:13px;color:var(--mut)}
+@media(max-width:640px){header.top nav a{margin-left:9px;font-size:13px}.brand span{display:none}}
