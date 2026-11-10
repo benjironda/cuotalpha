@@ -319,13 +319,14 @@
   "justa": 2.11,
   "valor": 1.0,
   "stake": 1.5,
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 1.79,
+  "resultado": "perdida",
+  "marcador": "114-124",
   "inicio": "2026-11-10T00:00:00Z",
   "fx": "id1100013273719576",
   "mid": "111",
   "oid": "1",
-  "sport": 11
+  "sport": 11,
+  "clv": 19.3
  }
 ]
