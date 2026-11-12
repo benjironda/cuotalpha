@@ -1,0 +1,67 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bankroll y unidades: cómo seguir nuestros picks | CuotAlpha</title><meta name="description" content="Qué es una unidad, cuánto apostar en cada pick (de 0,5 a 3 u), cómo se decide el stake y reglas para no quemar el bank. Con calculadora."><link rel="canonical" href="https://cuotalpha.com/bankroll/">
+<meta property="og:title" content="Bankroll y unidades: cómo seguir nuestros picks | CuotAlpha"><meta property="og:description" content="Qué es una unidad, cuánto apostar en cada pick (de 0,5 a 3 u), cómo se decide el stake y reglas para no quemar el bank. Con calculadora."><meta property="og:image" content="https://cuotalpha.com/assets/og.png">
+<link rel="icon" href="/assets/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css"><style>.bar{height:12px;background:rgba(255,255,255,.08);border-radius:6px;overflow:hidden;margin:6px 0 14px}.bar i{display:block;height:100%;background:#C9A86A}
+.pr{display:flex;justify-content:space-between;font-size:15px}.cta{display:block;text-align:center;margin:26px 0}.mini{font-size:13px;opacity:.75}
+.form b{display:inline-block;width:22px;text-align:center;border-radius:4px;margin-right:3px;font-size:12px}.W{background:#2f6b4a}.D{background:#5a5a3a}.L{background:#6b2f2f}
+ul.lst{padding-left:18px;line-height:1.7}
+.box{border:1px solid rgba(201,168,106,.45);border-radius:12px;padding:16px 18px;margin:18px 0;background:rgba(201,168,106,.06)}.box h3{margin:0 0 8px;font-size:18px}
+.box p{margin:6px 0}.res{border-color:rgba(255,255,255,.25);background:rgba(255,255,255,.04)}
+td.hi{color:#e2c993;font-weight:600}td.lo{color:#9fc7b0;font-weight:600}
+@media(max-width:640px){header.top nav a{margin-left:9px;font-size:13px}.brand span{display:none}}</style><style>.calc{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0 16px}.calc input{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:inherit;border-radius:10px;padding:10px 12px;font-size:18px;width:140px}
+.kt{width:100%;border-collapse:collapse;margin:8px 0 6px}.kt th,.kt td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left}.kt td.n,.kt th.n{text-align:right}
+.lst li{margin-bottom:8px}</style></head><body>
+<header class="top"><div class="wrap"><a class="brand" href="/"><img src="/assets/monograma.svg" alt=""><span>CUOTALPHA</span></a>
+<nav><a href="/">Inicio</a><a href="/pronosticos/">Pronósticos</a><a href="/arbitros/">Árbitros</a><a href="/registro/">Registro</a><a href="https://t.me/+RNWaU4aLgDlmODc0">Telegram</a></nav></div></header><section style="padding-top:40px"><div class="wrap" style="max-width:760px">
+<h1 class="serif" style="font-size:34px">Bankroll y unidades</h1>
+<p class="sub">Cómo seguir nuestros picks sin quemar el dinero. Lo que importa a largo plazo no es acertar una apuesta, es seguir en pie después de una mala racha.</p>
+
+<h2 style="font-size:22px;margin-top:26px">1. Tu bankroll</h2>
+<ul class="lst">
+<li>Es el dinero que reservas solo para apostar, separado del resto. Tiene que ser dinero que puedas perder entero sin que te cambie la vida.</li>
+<li>Decide la cifra una vez y no la rellenes cada vez que baje.</li>
+</ul>
+
+<h2 style="font-size:22px;margin-top:26px">2. La unidad</h2>
+<p>Todos nuestros picks llevan un stake en unidades (u). Recomendamos que <b>1 u sea el 1 % de tu bankroll</b>. Así todos seguimos los picks en la misma proporción, sea cual sea el dinero de cada uno.</p>
+<div class="calc"><label for="bk">Tu bankroll (€)</label><input id="bk" type="number" min="0" step="10" value="200" inputmode="decimal"></div>
+<table class="kt"><thead><tr><th>Stake</th><th class="n">Cuánto apostar</th></tr></thead><tbody id="kt"></tbody></table>
+<p class="note">Ejemplo: con 200 € de bankroll, 1 u son 2 € y un pick de 1,5 u son 3 €.</p>
+
+<h2 style="font-size:22px;margin-top:26px">3. Cómo decidimos el stake (de 0,5 a 3 u)</h2>
+<ul class="lst">
+<li><b>Más ventaja, más stake.</b> Cuanto más paga la cuota por encima de su precio justo, más unidades. Usamos una fracción prudente del criterio de Kelly, así que nunca pasamos de 3 u en un solo pick.</li>
+<li><b>Menos stake cuando hay más incertidumbre:</b> mercados nuevos (córners y tarjetas), mercados con poco dinero y picks sin ventaja clara de precio. Suelen ir a 0,5 u.</li>
+<li><b>Más stake cuando nuestro estudio y el precio coinciden</b> (doble confirmación).</li>
+<li>El registro calcula las unidades de cada pick así: si gana, stake × (cuota − 1); si pierde, −stake.</li>
+</ul>
+
+<h2 style="font-size:22px;margin-top:26px">4. Reglas para no quemar el bank</h2>
+<ul class="lst">
+<li><b>Nunca subas el stake para recuperar.</b> Después de un fallo, el siguiente pick va con su stake, ni más ni menos.</li>
+<li><b>Las rachas malas son normales.</b> Con un acierto en torno al 50 %, a lo largo de unos cientos de picks es habitual encadenar 5 o 6 fallos seguidos. Con 1 u = 1 %, una racha así cuesta unas 3-10 u, según el stake de cada pick: duele, pero no te saca del juego.</li>
+<li><b>Recalcula la unidad una vez al mes</b>, no después de cada resultado. Si el bank ha subido, la unidad sube; si ha bajado, baja.</li>
+<li><b>Respeta la cuota mínima.</b> Si cuando vas a apostar la cuota ya está por debajo de la mínima que indicamos, no la juegues: la ventaja ya no está.</li>
+<li><b>Ten en cuenta lo que hay en juego a la vez.</b> En un fin de semana con varios picks abiertos, la suma de stakes puede llegar a 8-10 u. Si te parece mucho, baja la unidad, no elijas a qué picks hacer caso.</li>
+<li><b>Sigue todos los picks, o asume que tu resultado será otro.</b> Si eliges solo unos pocos, tu resultado no será el del registro.</li>
+</ul>
+
+<h2 style="font-size:22px;margin-top:26px">5. Juego responsable</h2>
+<ul class="lst">
+<li>Solo mayores de 18 años.</li>
+<li>Pon límites de depósito en tu casa de apuestas. Todas las casas con licencia en España están obligadas a ofrecerlos.</li>
+<li>Si el juego deja de ser un entretenimiento, para. En España puedes inscribirte en el Registro General de Interdicciones de Acceso al Juego (RGIAJ) para no poder jugar.</li>
+</ul>
+
+<p style="margin-top:22px">Todos los picks, con su stake y su resultado: <a href="/registro/">registro público</a>.</p>
+<a class="btn cta" href="https://t.me/+RNWaU4aLgDlmODc0">Picks gratis en Telegram</a>
+</div></section>
+<script>
+const bk=document.getElementById('bk'),kt=document.getElementById('kt'),fm=v=>v.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';
+function upd(){const b=Math.max(0,parseFloat(bk.value)||0),u=b/100;kt.innerHTML=[0.5,1,1.5,2,3].map(s=>`<tr><td>${String(s).replace('.',',')} u</td><td class="n">${fm(u*s)}</td></tr>`).join('');}
+bk.addEventListener('input',upd);upd();
+</script><footer><div class="wrap"><div class="age">+18</div><p>Juega con responsabilidad</p>
+<p class="redes">Síguenos: <a href="https://t.me/+RNWaU4aLgDlmODc0" rel="noopener">Telegram</a> · <a href="https://x.com/cuotalpha" rel="noopener">X</a> · <a href="https://www.instagram.com/cuotalpha/" rel="noopener">Instagram</a></p>
+<p>Análisis de probabilidades, no garantía de resultado. No es asesoramiento.</p></div></footer></body></html>
