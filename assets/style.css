@@ -60,3 +60,15 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
 .empty{text-align:center;padding:50px 20px;color:var(--mut)}
 .note{font-size:13px;color:var(--mut)}
 @media(max-width:640px){header.top nav a{margin-left:9px;font-size:13px}.brand span{display:none}}
+
+.pcards{display:none}
+@media(max-width:640px){
+#tw{display:none}.pcards{display:grid;gap:12px}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pc1{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:14px}.pc .mut{color:var(--mut);font-size:13px}
+.pcm{font-weight:600;margin:10px 0 2px}.pcs{margin:8px 0 10px}
+.pcg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px;padding:10px 0;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06)}
+.pcg span{display:block;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.06em}.pcg b{display:block;font-size:17px;font-weight:600}.pcg i{font-style:normal;font-size:12px;color:var(--mut)}
+.pcg i.pos{color:var(--ok)}.pcg i.neg{color:var(--bad)}
+#bycat th,#bycat td{padding:8px 7px;font-size:12px}
+}

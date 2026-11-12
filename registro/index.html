@@ -21,18 +21,19 @@
 
 <section style="padding-top:44px"><div class="wrap">
   <h2>Registro público</h2>
-  <p class="sub">Cada pick tal y como se publicó en Telegram, con su cuota de cierre y su resultado. Nada se borra ni se edita.</p>
+  <p class="sub">Cada pick tal y como se publicó en Telegram, con su cuota de cierre y su resultado. Ningún pick se borra ni se cambia.</p>
 
   <div class="filters" id="cats"></div>
   <div class="kpis" id="kpis"></div>
   <div class="chart" id="chart"></div>
   <div id="bycat"></div>
   <h3 style="margin:28px 0 12px;font-weight:600">Todos los picks</h3>
-  <div class="tw"><table id="t"><thead><tr>
+  <div class="tw" id="tw"><table id="t"><thead><tr>
     <th>#</th><th>Publicado</th><th>Cat.</th><th>Liga</th><th>Partido</th><th>Selección</th><th>Casa</th>
     <th class="n">Cuota</th><th class="n">Justa</th><th class="n">Valor</th><th class="n">Cierre</th><th class="n">CLV</th><th class="n">Stake</th><th>Resultado</th><th class="n">Unidades</th><th></th>
   </tr></thead><tbody></tbody></table></div>
-  <p class="note" style="margin-top:14px"><b>Cómo leerlo.</b> <i>Valor</i>: cuánto pagaba la casa por encima del precio justo al publicar. <i>Cierre</i>: precio justo del mercado justo antes del partido. <i>CLV</i>: cuánto más cogimos respecto al cierre; si es positivo de forma sostenida, la ventaja es real aunque una racha salga mal. Unidades con stake fijo.</p>
+  <div class="pcards" id="pc"></div>
+  <p class="note" style="margin-top:14px"><b>Cómo leerlo.</b> <i>Valor</i>: cuánto pagaba la casa por encima del precio justo al publicar. <i>Cierre</i>: precio justo del mercado justo antes del partido. <i>CLV</i>: cuánto más cogimos respecto al cierre; si es positivo de forma sostenida, la ventaja es real aunque una racha salga mal. <i>Stake</i>: de 0,5 a 3 unidades según el valor; las unidades de cada pick son su stake por la ganancia o la pérdida.</p>
   <p class="note" id="upd"></p>
 </div></section>
 
@@ -95,6 +96,11 @@ function table(list){
   $('#t tbody').innerHTML=[...list].sort((a,b)=>b.n-a.n).map(x=>{const v=x.valor!=null?x.valor/100:(x.justa?x.cuota/x.justa-1:null),c=x.cierre?x.cuota/x.cierre-1:null,p=x.resultado&&x.resultado!=='pendiente'?pl(x):null;
     return `<tr><td>${x.n}</td><td>${new Date(x.publicado).toLocaleString('es-ES',{day:'2-digit',month:'2-digit',year:'2-digit',hour:'2-digit',minute:'2-digit'})}</td><td><span class="tag">${EMO[x.categoria]||''} ${x.categoria}${x.destacado?' ⭐':''}</span></td><td>${x.liga}</td><td>${x.partido}</td><td>${x.seleccion}</td><td>${x.casa}</td>
     <td class="n">${f(x.cuota)}</td><td class="n">${x.justa?f(x.justa):'—'}</td><td class="n">${v==null?'—':sg(100*v,1)+' %'}</td><td class="n">${x.cierre?f(x.cierre):'—'}</td><td class="n ${c>0?'pos':c<0?'neg':''}">${c==null?'—':sg(100*c,1)+' %'}</td><td class="n">${f(x.stake,1)}</td><td>${RES[x.resultado]||x.resultado}</td><td class="n ${p>0?'pos':p<0?'neg':''}">${p==null?'':sg(p)}</td><td>${x.telegram?`<a href="${x.telegram}" target="_blank" rel="noopener">Ver</a>`:''}</td></tr>`}).join('');
+  $('#pc').innerHTML=[...list].sort((a,b)=>b.n-a.n).map(x=>{const c=x.cierre?x.cuota/x.cierre-1:null,p=x.resultado&&x.resultado!=='pendiente'?pl(x):null;
+    return `<div class="pc"><div class="pc1"><span class="tag">${EMO[x.categoria]||''} ${x.categoria}${x.destacado?' ⭐':''}</span><span class="mut">#${x.n} · ${new Date(x.publicado).toLocaleString('es-ES',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}</span></div>
+    <div class="pcm">${x.partido}</div><div class="mut">${x.liga}</div><div class="pcs">🎯 ${x.seleccion}</div>
+    <div class="pcg"><div><span>Cuota</span><b>${f(x.cuota)}</b><i>${x.casa}</i></div><div><span>Cierre</span><b>${x.cierre?f(x.cierre):'—'}</b><i class="${c>0?'pos':c<0?'neg':''}">${c==null?'':'CLV '+sg(100*c,1)+' %'}</i></div><div><span>Stake</span><b>${f(x.stake,1)} u</b><i class="${p>0?'pos':p<0?'neg':''}">${p==null?'':sg(p)+' u'}</i></div></div>
+    <div class="pc1"><span>${RES[x.resultado]||x.resultado}</span>${x.telegram?`<a href="${x.telegram}" target="_blank" rel="noopener">Ver en Telegram →</a>`:''}</div></div>`}).join('');
 }
 function render(){
   const list=CAT==='Todas'?ALL:ALL.filter(x=>x.categoria===CAT);
