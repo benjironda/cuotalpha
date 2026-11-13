@@ -920,5 +920,31 @@
 "home": "Sabadell",
 "away": "Real Sociedad San Sebastian B",
 "v2": true
+},
+{
+"slug": "leganes-burgos-2026-11-13",
+"lg": "LaLiga Hypermotion",
+"H": "Leganés",
+"A": "Burgos",
+"start": "2026-11-13T19:30:00+00:00",
+"fecha": "viernes 13 de noviembre de 2026, 20:30",
+"fx": "id1000005472477592",
+"tid": 54,
+"home": "Leganes",
+"away": "Burgos",
+"v2": true
+},
+{
+"slug": "real-sociedad-b-sporting-de-gijon-2026-11-14",
+"lg": "LaLiga Hypermotion",
+"H": "Real Sociedad B",
+"A": "Sporting de Gijón",
+"start": "2026-11-14T15:15:00+00:00",
+"fecha": "sábado 14 de noviembre de 2026, 16:15",
+"fx": "id1000005472477598",
+"tid": 54,
+"home": "Real Sociedad San Sebastian B",
+"away": "Sporting Gijon",
+"v2": true
 }
 ]
