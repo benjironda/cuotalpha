@@ -946,5 +946,44 @@
 "home": "Real Sociedad San Sebastian B",
 "away": "Sporting Gijon",
 "v2": true
+},
+{
+"slug": "andorra-leganes-2026-11-20",
+"lg": "LaLiga Hypermotion",
+"H": "Andorra",
+"A": "Leganés",
+"start": "2026-11-20T19:30:00+00:00",
+"fecha": "viernes 20 de noviembre de 2026, 20:30",
+"fx": "id1000005476123232",
+"tid": 54,
+"home": "Andorra",
+"away": "Leganes",
+"v2": true
+},
+{
+"slug": "burgos-albacete-2026-11-22",
+"lg": "LaLiga Hypermotion",
+"H": "Burgos",
+"A": "Albacete",
+"start": "2026-11-22T20:00:00+00:00",
+"fecha": "domingo 22 de noviembre de 2026, 21:00",
+"fx": "id1000005472477606",
+"tid": 54,
+"home": "Burgos",
+"away": "Albacete Balompie",
+"v2": true
+},
+{
+"slug": "ceuta-almeria-2026-11-23",
+"lg": "LaLiga Hypermotion",
+"H": "Ceuta",
+"A": "Almería",
+"start": "2026-11-23T19:30:00+00:00",
+"fecha": "lunes 23 de noviembre de 2026, 20:30",
+"fx": "id1000005472477612",
+"tid": 54,
+"home": "AD Ceuta",
+"away": "Almería",
+"v2": true
 }
 ]
