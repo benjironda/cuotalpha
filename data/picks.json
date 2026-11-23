@@ -345,9 +345,9 @@
   "valor": 15.8,
   "stake": 0.5,
   "modelo": "tarjetas",
-  "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "cierre": 3.24,
+  "resultado": "perdida",
+  "marcador": "0-1",
   "inicio": "2026-11-20T20:00:00Z",
   "fx": "id1000000872478708",
   "mid": "10936",
@@ -355,7 +355,8 @@
   "argumento": [
    "Los partidos del Espanyol esta temporada promedian 6,25 tarjetas (12 jornadas), muy por encima de la media de LaLiga (4,69).",
    "Busquets Ferrer sacó 5,89 y 5,79 tarjetas por partido en las dos últimas temporadas, con la liga en 4,63 y 4,51."
-  ]
+  ],
+  "clv": 18.5
  },
  {
   "n": 14,
