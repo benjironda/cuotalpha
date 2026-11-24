@@ -375,8 +375,8 @@
   "stake": 0.5,
   "modelo": "neutro",
   "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "resultado": "ganada",
+  "marcador": "0-1",
   "inicio": "2026-11-24T20:00:00Z",
   "fx": "toa:9a2ebad454db4ab3d53b89e96c79847a",
   "mid": "101",
@@ -404,8 +404,8 @@
   "stake": 0.5,
   "tipo": "valor",
   "cierre": null,
-  "resultado": "pendiente",
-  "marcador": null,
+  "resultado": "ganada",
+  "marcador": "5-1 / 3-1",
   "inicio": "2026-11-24T20:00:00Z",
   "legs": [
    {
@@ -416,7 +416,8 @@
     "seleccion": "Gana Real Madrid",
     "cuota": 1.21,
     "inicio": "2026-11-24T20:00:00Z",
-    "resultado": "pendiente"
+    "resultado": "ganada",
+    "marcador": "5-1"
    },
    {
     "fx": "toa:aea973c122c91837c15e066c757c747f",
@@ -426,7 +427,8 @@
     "seleccion": "Gana RB Leipzig",
     "cuota": 1.44,
     "inicio": "2026-11-24T20:00:00Z",
-    "resultado": "pendiente"
+    "resultado": "ganada",
+    "marcador": "3-1"
    }
   ],
   "argumento": [
