@@ -972,5 +972,18 @@
 "home": "Burgos",
 "away": "Albacete Balompie",
 "v2": true
+},
+{
+"slug": "celta-de-vigo-bournemouth-2026-11-26",
+"lg": "Europa League",
+"H": "Celta de Vigo",
+"A": "Bournemouth",
+"start": "2026-11-26T17:45:00+00:00",
+"fecha": "jueves 26 de noviembre de 2026, 18:45",
+"fx": "id1000067974173074",
+"tid": 679,
+"home": "Celta de Vigo",
+"away": "Bournemouth",
+"v2": true
 }
 ]
