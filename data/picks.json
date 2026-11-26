@@ -438,5 +438,34 @@
    "El Lens solo ha ganado 1 de sus 5 partidos de liga fuera de casa y no gana desde hace tres jornadas (dos derrotas y un empate).",
    "Bajas: Nawrocki no estará en el Lens; Edouard, en duda."
   ]
+ },
+ {
+  "n": 16,
+  "publicado": "2026-11-26T10:58:36Z",
+  "telegram": "https://t.me/CuotAlpha/133",
+  "categoria": "Valor",
+  "destacado": true,
+  "liga": "Europa League",
+  "partido": "Celta Vigo – Bournemouth",
+  "seleccion": "Gana Bournemouth",
+  "casa": "1xBet",
+  "cuota": 2.07,
+  "cuota_min": 2.06,
+  "justa": 2.01,
+  "valor": 2.9,
+  "stake": 0.5,
+  "modelo": "neutro",
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-26T17:45:00Z",
+  "fx": "id1000067974173074",
+  "mid": "101",
+  "oid": "103",
+  "argumento": [
+   "El Bournemouth llega con 5 victorias seguidas en la Premier (11-1 en goles): Sunderland, Manchester United, Leeds, Ipswich y Nottingham Forest.",
+   "El Celta solo ha ganado 2 de sus 13 partidos de LaLiga y no ha marcado en 7 de ellos; en los últimos 5 de liga, 1 victoria.",
+   "Dudas en el Celta: Borja Iglesias y Starfelt."
+  ]
  }
 ]
