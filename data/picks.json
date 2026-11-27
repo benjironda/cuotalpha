@@ -468,5 +468,148 @@
    "El Celta solo ha ganado 2 de sus 13 partidos de LaLiga y no ha marcado en 7 de ellos; en los últimos 5 de liga, 1 victoria.",
    "Dudas en el Celta: Borja Iglesias y Starfelt."
   ]
+ },
+ {
+  "n": 17,
+  "publicado": "2026-11-27T08:59:47Z",
+  "telegram": "https://t.me/CuotAlpha/137",
+  "categoria": "Valor",
+  "destacado": true,
+  "liga": "LaLiga 2",
+  "partido": "Mallorca – Castellon",
+  "seleccion": "Menos de 2,5 goles",
+  "casa": "1xBet",
+  "cuota": 2.12,
+  "cuota_min": 2.09,
+  "justa": 2.04,
+  "valor": 3.7,
+  "stake": 1.0,
+  "modelo": "neutro",
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-29T15:15:00Z",
+  "fx": "id1000005472477642",
+  "mid": "1010",
+  "oid": "1011",
+  "argumento": [
+   "10 de los 14 partidos del Mallorca en LaLiga Hypermotion han acabado con menos de 2,5 goles.",
+   "El Castellón solo ha encajado 5 goles en 14 jornadas, con 9 porterías a cero."
+  ]
+ },
+ {
+  "n": 18,
+  "publicado": "2026-11-27T08:59:51Z",
+  "telegram": "https://t.me/CuotAlpha/138",
+  "categoria": "Valor",
+  "destacado": true,
+  "liga": "Serie A",
+  "partido": "Lecce – Atalanta",
+  "seleccion": "Gana Atalanta",
+  "casa": "1xBet",
+  "cuota": 1.96,
+  "cuota_min": 1.94,
+  "justa": 1.9,
+  "valor": 3.1,
+  "stake": 1.0,
+  "modelo": "acuerdo",
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-30T17:30:00Z",
+  "fx": "id1000002371945434",
+  "mid": "101",
+  "oid": "103",
+  "argumento": [
+   "El Lecce ha perdido 4 de sus 5 partidos en casa y lleva 12 goles a favor y 25 en contra en 12 jornadas.",
+   "El Atalanta ganó sus dos últimas visitas a Lecce: 0-4 (2024-25) y 0-3 (2025-26).",
+   "Baja en el Atalanta: Hien; duda, Carnesecchi."
+  ]
+ },
+ {
+  "n": 19,
+  "publicado": "2026-11-27T08:59:55Z",
+  "telegram": "https://t.me/CuotAlpha/139",
+  "categoria": "Valor",
+  "destacado": false,
+  "liga": "Serie A",
+  "partido": "Como – Juventus",
+  "seleccion": "Empate",
+  "casa": "1xBet",
+  "cuota": 3.85,
+  "cuota_min": 3.76,
+  "justa": 3.68,
+  "valor": 4.5,
+  "stake": 0.5,
+  "modelo": "acuerdo",
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-29T19:45:00Z",
+  "fx": "id1000002371945428",
+  "mid": "101",
+  "oid": "102",
+  "argumento": [
+   "El Como solo ha encajado 1 gol en sus 5 partidos de liga en casa (4 porterías a cero) y empató 0-0 con la Roma, el único grande que ha pasado por su campo.",
+   "La Juventus ha ganado 2 de sus 6 salidas en la Serie A (2 empates y 2 derrotas).",
+   "Bajas en la Juventus: Locatelli y Khéphren Thuram."
+  ]
+ },
+ {
+  "n": 20,
+  "publicado": "2026-11-27T08:59:58Z",
+  "telegram": "https://t.me/CuotAlpha/140",
+  "categoria": "Combinada",
+  "destacado": false,
+  "liga": "Bundesliga + LaLiga + Ligue 1",
+  "partido": "Hamburger SV – Bayern de Múnich + PSG – Lorient + Deportivo – Barcelona",
+  "seleccion": "Gana Bayern de Múnich @1,29 + Gana PSG @1,25 + Gana Barcelona @1,27",
+  "casa": "1xBet",
+  "cuota": 2.05,
+  "cuota_min": null,
+  "justa": 1.89,
+  "valor": 8.5,
+  "stake": 0.5,
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-28T14:30:00Z",
+  "legs": [
+   {
+    "fx": "id1000003572513338",
+    "mid": "101",
+    "oid": "103",
+    "partido": "Hamburger SV – Bayern de Múnich",
+    "seleccion": "Gana Bayern de Múnich",
+    "cuota": 1.29,
+    "inicio": "2026-11-28T14:30:00.000Z",
+    "resultado": "pendiente"
+   },
+   {
+    "fx": "id1000003472036324",
+    "mid": "101",
+    "oid": "101",
+    "partido": "PSG – Lorient",
+    "seleccion": "Gana PSG",
+    "cuota": 1.25,
+    "inicio": "2026-11-28T19:45:00.000Z",
+    "resultado": "pendiente"
+   },
+   {
+    "fx": "id1000000872478730",
+    "mid": "101",
+    "oid": "103",
+    "partido": "Deportivo – Barcelona",
+    "seleccion": "Gana Barcelona",
+    "cuota": 1.27,
+    "inicio": "2026-11-29T15:15:00.000Z",
+    "resultado": "pendiente"
+   }
+  ],
+  "argumento": [
+   "El Barcelona ha ganado 12 de sus 13 partidos de liga y sus 6 salidas, con 24 goles fuera de casa.",
+   "El Bayern sigue invicto en la Bundesliga (6 victorias y 4 empates); el Hamburgo ha perdido 6 de 10 y ha encajado 24 goles.",
+   "El PSG suma 8 victorias en 11 jornadas; el Lorient solo ha marcado 10 goles."
+  ]
  }
 ]
