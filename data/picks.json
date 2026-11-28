@@ -611,5 +611,34 @@
    "El Bayern sigue invicto en la Bundesliga (6 victorias y 4 empates); el Hamburgo ha perdido 6 de 10 y ha encajado 24 goles.",
    "El PSG suma 8 victorias en 11 jornadas; el Lorient solo ha marcado 10 goles."
   ]
+ },
+ {
+  "n": 21,
+  "publicado": "2026-11-28T11:01:53Z",
+  "telegram": "https://t.me/CuotAlpha/144",
+  "categoria": "Valor",
+  "destacado": false,
+  "liga": "Bundesliga",
+  "partido": "SC Paderborn – Schalke 04",
+  "seleccion": "Empate",
+  "casa": "1xBet",
+  "cuota": 3.84,
+  "cuota_min": 3.69,
+  "justa": 3.62,
+  "valor": 6.2,
+  "stake": 0.5,
+  "modelo": "acuerdo",
+  "cierre": null,
+  "resultado": "pendiente",
+  "marcador": null,
+  "inicio": "2026-11-28T14:30:00Z",
+  "fx": "id1000003572513344",
+  "mid": "101",
+  "oid": "102",
+  "argumento": [
+   "Los dos llegan con 4 empates en sus últimos 10 partidos de liga: Paderborn, 4 empates, 2 victorias y 4 derrotas; Schalke, 4 empates, 1 victoria y 5 derrotas.",
+   "Partido de pocos goles: el Schalke solo ha marcado 5 goles en 10 jornadas (en 7 se quedó sin marcar) y en 6 de sus 10 partidos hubo menos de 3 goles; el Paderborn ha marcado 8.",
+   "Nuestro estudio da al empate un 31 %, por encima del 28 % del mercado: dos equipos de la zona media-baja con poca pegada."
+  ]
  }
 ]
